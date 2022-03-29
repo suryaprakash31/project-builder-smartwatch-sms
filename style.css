@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Lexend Mega", sans-serif;
+}
+
+/*For Outer Grey box*/
+#outer-container {
+  margin-top: 10%;
+  margin-left: 40%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #3b3b3b;
+  border-radius: 3.5em;
+  width: 15vw;
+  height: 35vh;
+}
+
+/*For inner black box*/
+#inner-container {
+  background-color: black;
+  color: white;
+  height: 100%;
+  border-radius: 3.5em;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  justify-content: stretch;
+  align-items: center;
+}
+
+#main-content,
+#upper-date {
+  text-align: center;
+}
+
+#message-container {
+  height: 150px;
+  text-align: start;
+  margin-left: 5px;
+  overflow: auto;
+}
+
+#message-container::-webkit-scrollbar {
+  background-color: white;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b3b3b;
+  height: 10px;
+  background-clip: padding-box;
+  border-radius: 10%;
+}
+
+#message-container div {
+  background-color: #3b3b3b;
+  margin: 0% 10% 5% 10%;
+  padding: 3%;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+/*For watch icons*/
+#watch-icons {
+  display: flex;
+  justify-content: space-around !important;
+  align-self: stretch !important;
+  font-size: 1.2em;
+}
+
+a {
+  color: white;
+}
